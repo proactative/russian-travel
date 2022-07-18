@@ -1,0 +1,18 @@
+.lead {
+  padding-top: 64px;
+  width: 76.8%; /*984px*/
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (max-width: 1024px){
+  .lead {
+    width: calc(0,625 * 100% + 288);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead {
+    width: 100%;
+  }
+}

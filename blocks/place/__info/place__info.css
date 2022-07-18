@@ -1,0 +1,8 @@
+.place__info {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}

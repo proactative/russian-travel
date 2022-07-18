@@ -1,0 +1,11 @@
+.page {
+  background-color:rgba(42, 44, 47, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  /*сглаживание*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
