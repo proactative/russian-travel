@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 1.22;
   color: #FFF;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -14,3 +14,5 @@
 .place__link:hover {
   opacity: .8;
 }
+
+

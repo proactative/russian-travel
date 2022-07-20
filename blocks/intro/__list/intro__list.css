@@ -1,5 +1,6 @@
 .intro__list {
   padding-top: 33px;
+  box-sizing: border-box;
   list-style-type: none;
   margin-block-end: 0;
   margin-block-start: 0;

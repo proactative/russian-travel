@@ -8,3 +8,20 @@
   margin-block-end: 0;
   align-self: end;
 }
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 585px) { /*начала ранее чтобы не было скрола*/
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+    align-self: start;
+    padding-left: 16px;
+    box-sizing: border-box;
+  }
+}

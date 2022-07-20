@@ -4,3 +4,30 @@
  justify-content: space-between;
  flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 706px) { /* промежуточный 706px*/
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-left: 16px;
+  }
+}

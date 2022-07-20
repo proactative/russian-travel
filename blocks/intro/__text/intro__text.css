@@ -7,6 +7,35 @@
   line-height: 1.63;
   color: #fff;
   padding-top: 40px;
+  box-sizing: border-box;
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+/*для равномерного резинового перехода*/
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .intro__text {
+    max-width: calc(720px - ((100vw - 769px) / (1023 - 769)) * (720 - 690));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+/*для равномерного резинового перехода*/
+@media screen and (max-width: 767px) and (min-width: 321px) {
+  .intro__text {
+    max-width: calc(288px + ((100vw - 321px) / (767 - 321)) * (720 - 288));
+    min-height: calc(520px - ((100vw - 321px) / (767 - 321)) * (520 - 208));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    min-height: 520px;
+    max-width: 288px;
+  }
 }

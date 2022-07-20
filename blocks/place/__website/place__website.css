@@ -2,3 +2,11 @@
   align-self: end;
   justify-self: start;
 }
+
+@media screen and (max-width: 585px) { /*начала ранее чтобы не было скролла*/
+  .place__website {
+    align-self: start;
+    padding-left: 16px;
+    box-sizing: border-box;
+  }
+}

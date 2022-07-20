@@ -2,8 +2,17 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
   color: #fff;
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragragh {
+    font-size: 16px;
+  }
+}
+
+
+

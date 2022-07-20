@@ -2,9 +2,23 @@
   width: 460px;
 }
 
+/*для равномерного резинового перехода*/
+@media screen and (max-width: 1279px) and (min-width: 1025px) {
+  .place__image {
+    max-width: calc(440px + ((100vw - 1025px) / (1279 - 1025)) * (460 - 440));
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .place__image {
     width: 440px;
+  }
+}
+
+/*для равномерного резинового перехода*/
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .place__image {
+    max-width: calc(340px + ((100vw - 769px) / (1023 - 769)) * (440 - 340));
   }
 }
 
@@ -14,8 +28,15 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+/*для равномерного резинового перехода*/
+@media screen and (max-width: 767px) and (min-width: 586px) {  /*чтобы не было скролла*/
   .place__image {
-    width: 320px;
+    max-width: calc(320px + ((100vw - 585px) / (1023 - 586)) * (340 - 320));
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .place__image {
+    width: 100%;
   }
 }

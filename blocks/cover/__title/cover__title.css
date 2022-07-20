@@ -6,12 +6,20 @@
   font-size: 72px;
   line-height: 1.06;
   color: #fff;
-  padding-top: 245px;
-  margin-block-start: 0;
-  margin-block-end: 0;
   text-align: center;
   margin: 0 auto;
   z-index: 2;
+  white-space: pre-line;
+}
+
+/*для равномерного резинового перехода*/
+@media screen and (max-width: 767px) and (min-width: 321px) {
+  .cover__title {
+    font-size: calc(32px + ((100vw - 321px) / (767 - 321)) * (72 - 32));
+    line-height: calc(35px + ((100vw - 321px) / (767 - 321)) * (76 - 35));
+    min-height: calc(70px - ((100vw - 321px) / (767 - 321)) * (152 - 70));
+    max-width: calc(288px + ((100vw - 321px) / (767 - 321)) * (560 - 288));
+  }
 }
 
 @media screen and (max-width: 320px) {
