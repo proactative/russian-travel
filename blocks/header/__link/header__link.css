@@ -6,6 +6,11 @@
   line-height: 1.17;
   text-align: right;
   text-decoration: none;
+  transition: opacity .3s ease;
+}
+
+.header__link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {

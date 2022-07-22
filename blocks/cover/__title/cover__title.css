@@ -9,24 +9,13 @@
   text-align: center;
   margin: 0 auto;
   z-index: 2;
-  white-space: pre-line;
 }
 
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 767px) and (min-width: 321px) {
+@media screen and (max-width: 767px) {
   .cover__title {
-    font-size: calc(32px + ((100vw - 321px) / (767 - 321)) * (72 - 32));
-    line-height: calc(35px + ((100vw - 321px) / (767 - 321)) * (76 - 35));
-    min-height: calc(70px - ((100vw - 321px) / (767 - 321)) * (152 - 70));
-    max-width: calc(288px + ((100vw - 321px) / (767 - 321)) * (560 - 288));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 1.09;
-    min-height: 70px;
-    max-width: 288px;
+    font-size: calc(32px + ((100vw - 320px) / (767 - 320)) * (72 - 32));
+    line-height: calc(35px + ((100vw - 320px) / (767 - 320)) * (76 - 35));
+    min-height: calc(70px - ((100vw - 320px) / (767 - 320)) * (152 - 70));
+    max-width: calc(288px + ((100vw - 320px) / (767 - 320)) * (560 - 288));
   }
 }

@@ -3,53 +3,33 @@
   flex-direction: column;
   gap: 80px;
   box-sizing: border-box;
-  padding: 92px 148px 0;
-  margin:0 auto;
+  padding: 80px 148px 0;
+  margin: 0 auto;
 }
 
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 1279px) and (min-width: 1025px) {
+/* 1034 нужно чтобы не появлялся горизонтальный скролл */
+@media screen and (max-width: 1034px) {
   .places {
-    padding-left: calc(48px + ((100vw - 1025px) / (1279 - 1025)) * (148 - 48));
-    padding-right: calc(48px + ((100vw - 1025px) / (1279 - 1025)) * (148 - 48));
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 1023px) and (min-width: 769px) {
-  .places {
-    padding-left: calc(24px + ((100vw - 769px) / (1023 - 769)) * (48 - 24));
-    padding-right: calc(24px + ((100vw - 769px) / (1023 - 769)) * (48 - 24));
+    padding: 80px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 90px;
-    gap: 72px;
+    gap: 66px;
+    padding: 101px 24px 87px;
   }
 }
 
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 767px) and (min-width: 586px) {
+/*нужно чтобы убрать горизонтальный скролл*/
+@media screen and (max-width: 700px) {
   .places {
-    padding-bottom: calc(66px + ((100vw - 586px) / (767 - 586)) * (90 - 66));
+    padding: 101px 20px 87px;
   }
 }
 
-@media screen and (max-width: 585px) { /*чтобы не было скролла*/
+@media screen and (max-width: 640px) {
   .places {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 66px;
+    padding: 60px 0 66px;
   }
 }

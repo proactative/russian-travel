@@ -1,13 +1,13 @@
 .footer__links {
- list-style-type: none;
- display: flex;
- gap: 18px;
- margin-block-start: 0;
- margin-block-end: 0;
- padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 18px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
-@media screen and (max-width: 706px) { /*чтобы не было накладки применила 706px, а не 320px*/
+@media screen and (max-width: 706px) {
   .footer__links {
     flex-direction: column;
     gap: 32px;

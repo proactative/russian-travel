@@ -12,45 +12,12 @@
   margin-block-end: 0;
 }
 
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 1023px) and (min-width: 769px) {
-  .intro__title {
-    padding-top: calc(88px + ((100vw - 769px) / (1023 - 769)) * (92 - 88));
-    max-width: calc(720px - ((100vw - 769px) / (1023 - 769)) * (720 - 690));
-  }
-}
-
 @media screen and (max-width: 768px) {
   .intro__title {
-    max-width: 720px;
-    padding-top: 88px;
-  }
-}
-
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 767px) and (min-width: 321px) {
-  .intro__title {
-    padding-top: calc(64px + ((100vw - 321px) / (767 - 321)) * (88 - 64));
-    font-size: calc(32px + ((100vw - 321px) / (767 - 321)) * (54 - 32));
-    line-height: calc(35px + ((100vw - 321px) / (767 - 321)) * (58 - 35));
-    min-height: calc(70px - ((100vw - 321px) / (767 - 321)) * (70 - 58));
-    max-width: calc(288px + ((100vw - 321px) / (767 - 321)) * (720 - 288));
-  }
-}
-
-@media screen and (max-width: 628px) { /*чтобы автоматически не переносилось одно слово*/
-  .intro__title {
-    white-space: pre-line;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.09;
-    min-height: 70px;
-    max-width: 288px;
-    white-space: pre-line;
-    padding-top: 64px;
+    padding-top: calc(64px + ((100vw - 320px) / (768 - 320)) * (88 - 64));
+    font-size: calc(32px + ((100vw - 320px) / (768 - 320)) * (54 - 32));
+    line-height: calc(35px + ((100vw - 320px) / (768 - 320)) * (58 - 35));
+    min-height: calc(70px - ((100vw - 320px) / (768 - 320)) * (70 - 58));
+    max-width: calc(288px + ((100vw - 320px) / (768 - 320)) * (720 - 288));
   }
 }

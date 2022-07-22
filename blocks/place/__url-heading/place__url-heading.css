@@ -6,10 +6,12 @@
   color: #AAA;
   margin-block-start: 0;
   margin-block-end: 0;
+  text-transform: uppercase;
   letter-spacing: 2px;
+  padding-bottom: 12px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .place__url-heading {
     line-height: 1;
     padding-bottom: 12px;

@@ -13,21 +13,11 @@
   z-index: 2;
 }
 
-/*для равномерного резинового перехода*/
-@media screen and (max-width: 767px) and (min-width: 321px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   .cover__subtitle {
-    font-size: calc(14px + ((100vw - 321px) / (767 - 321)) * (18 - 14));
-    line-height: calc(16px + ((100vw - 321px) / (767 - 321)) * (22 - 16));
-    min-height: calc(48px - ((100vw - 321px) / (767 - 321)) * (66 - 48));
-    max-width: calc(288px + ((100vw - 321px) / (767 - 321)) * (360 - 288));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.14;
-    min-height: 48px;
-    max-width: 288px;
+    font-size: calc(14px + ((100vw - 320px) / (767 - 320)) * (18 - 14));
+    line-height: calc(16px + ((100vw - 320px) / (767 - 320)) * (22 - 16));
+    min-height: calc(48px - ((100vw - 320px) / (767 - 320)) * (66 - 48));
+    max-width: calc(288px + ((100vw - 320px) / (767 - 320)) * (360 - 288));
   }
 }
