@@ -31,7 +31,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
-@import url(../blocks/intro/__list-item/_digits/intro__list-item_digits.css);
+@import url(../blocks/intro/__digits/intro__digits.css);
 
 /*photo-grid*/
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
