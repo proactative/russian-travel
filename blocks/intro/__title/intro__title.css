@@ -1,5 +1,4 @@
 .intro__title {
-  min-height: 58px;
   max-width: 690px;
   font-style: normal;
   font-weight: 900;
@@ -17,7 +16,6 @@
     padding-top: calc(64px + ((100vw - 320px) / (768 - 320)) * (88 - 64));
     font-size: calc(32px + ((100vw - 320px) / (768 - 320)) * (54 - 32));
     line-height: calc(35px + ((100vw - 320px) / (768 - 320)) * (58 - 35));
-    min-height: calc(70px - ((100vw - 320px) / (768 - 320)) * (70 - 58));
     max-width: calc(288px + ((100vw - 320px) / (768 - 320)) * (720 - 288));
   }
 }

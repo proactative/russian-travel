@@ -8,16 +8,16 @@
 }
 
 /* 1034 нужно чтобы не появлялся горизонтальный скролл */
-@media screen and (max-width: 1034px) {
+@media screen and (max-width: 1220px) {
   .places {
     padding: 80px 48px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .places {
-    gap: 66px;
-    padding: 101px 24px 87px;
+    gap: 74px;
+    padding: 66px 24px 87px;
   }
 }
 
@@ -31,5 +31,11 @@
 @media screen and (max-width: 640px) {
   .places {
     padding: 60px 0 66px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    gap: 51px;
   }
 }

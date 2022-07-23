@@ -2,26 +2,27 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   column-gap: 40px;
-  row-gap: 48px;
+  row-gap: 49px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    column-gap: 32px;
-    grid-template-columns: 440px 1fr;
+    column-gap: calc(28px + ((100vw - 801px) / (1024 - 801)) * (32 - 28));
+    grid-template-columns: calc(340px + ((100vw - 801px) / (1024 - 801)) * (440 - 340)) 1fr;
+    row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .place {
-    grid-template-columns: 410px 1fr;
+    grid-template-columns: 340px 1fr;
+    row-gap: 47px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 730px) {
   .place {
-    column-gap: 28px;
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: calc(250px + ((100vw - 641px) / (730 - 641)) * (340 - 250)) 1fr;
   }
 }
 

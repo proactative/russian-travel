@@ -7,6 +7,12 @@
   margin-block-end: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .place__info {
+    gap: 25px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .place__info {
     align-self: start;

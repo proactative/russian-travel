@@ -13,6 +13,9 @@
   .place__title {
     font-size: 42px;
     line-height: 1.1;
+    /*для размещения текста на двух строках*/
+    padding-right: 10px;
+    box-sizing: border-box;
   }
 }
 
@@ -22,6 +25,5 @@
     line-height: 1.09;
     align-self: start;
     padding-left: 16px;
-    box-sizing: border-box;
   }
 }

@@ -1,15 +1,4 @@
 .place__image {
-  width: 460px;
+  width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__image {
-    width: calc(340px + ((100vw - 768px) / (1024 - 768)) * (440 - 340));
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .place__image {
-    width: 100%;
-  }
-}

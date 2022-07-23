@@ -1,5 +1,4 @@
 .cover__subtitle {
-  min-height: 66px;
   max-width: 360px;
   font-style: normal;
   font-weight: 400;
@@ -9,7 +8,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
   z-index: 2;
 }
 
@@ -17,7 +16,6 @@
   .cover__subtitle {
     font-size: calc(14px + ((100vw - 320px) / (767 - 320)) * (18 - 14));
     line-height: calc(16px + ((100vw - 320px) / (767 - 320)) * (22 - 16));
-    min-height: calc(48px - ((100vw - 320px) / (767 - 320)) * (66 - 48));
     max-width: calc(288px + ((100vw - 320px) / (767 - 320)) * (360 - 288));
   }
 }

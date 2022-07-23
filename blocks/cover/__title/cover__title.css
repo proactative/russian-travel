@@ -1,5 +1,4 @@
 .cover__title {
-  min-height: 152px;
   max-width: 560px;
   font-style: normal;
   font-weight: 900;
@@ -7,7 +6,7 @@
   line-height: 1.06;
   color: #fff;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
   z-index: 2;
 }
 
@@ -15,7 +14,6 @@
   .cover__title {
     font-size: calc(32px + ((100vw - 320px) / (767 - 320)) * (72 - 32));
     line-height: calc(35px + ((100vw - 320px) / (767 - 320)) * (76 - 35));
-    min-height: calc(70px - ((100vw - 320px) / (767 - 320)) * (152 - 70));
     max-width: calc(288px + ((100vw - 320px) / (767 - 320)) * (560 - 288));
   }
 }
