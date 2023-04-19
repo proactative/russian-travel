@@ -1,19 +1,21 @@
-# Проект: Путешествие по России
+# Project **Travelling across Russia**
+![shield](https://img.shields.io/badge/status-release-brightgreen)
+![shield](https://img.shields.io/badge/version-1.0.0-blue)
 
-**Описание проекта**
+**Description**
 
-- Демонстрация возможностей адаптивно-отзывчивой верстки.
+ This landing page with adaptive-responsive layout is a task within the course "web-development" at Yandex Practicum.
 
-- Технологии Grid и Flex.
+**Technologies**
 
-**Инструкция по использованию**
+- flexbox
+- grid layout
+- BEM (Nested)
 
-Возможно использовать на любом устройтве с минимальной шириной экрана 320px.
+**Using**
 
-**Ссылка на GitHub Pages**
+Can be watched on any device with a min screen width of 320px.
 
- https://proactative.github.io/russian-travel/index.html
+[**Link to the project**](https://proactative.github.io/russian-travel)
 
-**Figma**
-
-[Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+[**Figma layout**](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
