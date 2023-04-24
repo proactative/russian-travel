@@ -1,4 +1,4 @@
-# Project **Travelling across Russia**
+# Project "Travelling across Russia"
 ![shield](https://img.shields.io/badge/status-release-brightgreen)
 ![shield](https://img.shields.io/badge/version-1.0.0-blue)
 
@@ -8,7 +8,7 @@
 
 **Technologies**
 
-- flexbox
+- flexbox layout
 - grid layout
 - BEM (Nested)
 
