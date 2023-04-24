@@ -2,6 +2,8 @@
 ![shield](https://img.shields.io/badge/status-release-brightgreen)
 ![shield](https://img.shields.io/badge/version-1.0.0-blue)
 
+![r_t_demo](https://user-images.githubusercontent.com/104484685/233929909-476e0890-d2fc-485d-8561-b39c57263f1b.gif)
+
 **Description**
 
  This landing page with adaptive-responsive layout is a task within the course "web-development" at Yandex Practicum.
